@@ -7,6 +7,8 @@ def line (katz_deli)
   end
 end
 
+$counter = 0
+
 def take_a_number (katz_deli)
   number = katz_deli.length + 1
   katz_deli << number
