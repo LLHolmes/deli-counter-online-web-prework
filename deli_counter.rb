@@ -8,7 +8,8 @@ def line (katz_deli)
 end
 
 def take_a_number (katz_deli)
-  katz_deli << 1
+  number = 1
+  katz_deli << number
   puts "Welcome, you are number #{number}. You are number #{katz_deli.index(name) + 1} in line."
 end
 
