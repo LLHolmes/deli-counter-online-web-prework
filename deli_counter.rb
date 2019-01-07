@@ -7,9 +7,9 @@ def line (katz_deli)
   end
 end
 
-def take_a_number (katz_deli, name)
-  katz_deli << name
-  puts "Welcome, #{name}. You are number #{katz_deli.index(name) + 1} in line."
+def take_a_number (katz_deli)
+  katz_deli << 
+  puts "Welcome, you are number #{number}. You are number #{katz_deli.index(name) + 1} in line."
 end
 
 def now_serving (katz_deli)
@@ -21,6 +21,5 @@ def now_serving (katz_deli)
 end
 
 line = []
-now_serving(line)
-take_a_number(line, 'Morgan')
-puts line.length
+take_a_number(line)
+
