@@ -1,3 +1,5 @@
+class DeliCounter
+
 def line (katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
@@ -21,6 +23,8 @@ def now_serving (katz_deli)
   else
     puts "Currently serving #{katz_deli.shift}."
   end
+end
+
 end
 
 line = []
