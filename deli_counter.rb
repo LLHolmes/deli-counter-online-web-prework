@@ -12,7 +12,7 @@ $counter = 0
 def take_a_number (katz_deli)
   $counter += 1
   katz_deli << $counter
-  puts "Welcome, you are number #{number}. You are number #{katz_deli.length} in line."
+  puts "Welcome, you are number #{$counter}. You are number #{katz_deli.length} in line."
 end
 
 def now_serving (katz_deli)
