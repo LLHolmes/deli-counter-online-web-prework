@@ -22,3 +22,4 @@ end
 
 line = []
 take_a_number(line, 'Morgan')
+now_serving(line)
